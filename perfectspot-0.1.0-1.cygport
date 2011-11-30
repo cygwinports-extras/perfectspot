@@ -1,0 +1,8 @@
+inherit qt4-cmake
+
+DESCRIPTION="WordPerfect Graphics viewer"
+HOMEPAGE="http://libwpg.sourceforge.net/"
+SRC_URI="mirror://sourceforge/libwpg/${P}.tar.bz2"
+PATCH_URI="0.1.0-vpath.patch"
+
+DISTCLEANFILES="CMakeCache.txt"

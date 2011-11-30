@@ -1,0 +1,6 @@
+category: Graphics
+requires: libgcc1 libQtCore4 libQtGui4 libQtSvg4 libstdc++6 libwpd0.9_9 libwpg0.2_2
+sdesc: "WordPerfect Graphics viewer and converter"
+ldesc: "Perfectspot is a graphical tool to view and convert WPG files. 
+Perfectspot can convert WPG pictures to SVG, ODG, PDF, BMP, JPEG, and PNG 
+formats."
