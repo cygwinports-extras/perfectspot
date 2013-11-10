@@ -1,0 +1,15 @@
+inherit qt4-cmake
+
+NAME="perfectspot"
+VERSION=0.1.0
+RELEASE=1
+CATEGORY="Graphics"
+SUMMARY="WordPerfect Graphics viewer and converter"
+DESCRIPTION="Perfectspot is a graphical tool to view and convert WPG files.
+Perfectspot can convert WPG pictures to SVG, ODG, PDF, BMP, JPEG, and PNG
+formats."
+HOMEPAGE="http://libwpg.sourceforge.net/"
+SRC_URI="mirror://sourceforge/libwpg/${NAME}-${VERSION}.tar.bz2"
+PATCH_URI="0.1.0-vpath.patch"
+
+DISTCLEANFILES="CMakeCache.txt"
