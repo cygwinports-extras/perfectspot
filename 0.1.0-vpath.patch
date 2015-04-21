@@ -1,9 +1,0 @@
---- origsrc/perfectspot-0.1.0/CMakeLists.txt	2010-11-19 06:50:01.000000000 -0600
-+++ src/perfectspot-0.1.0/CMakeLists.txt	2011-11-29 19:18:22.036104800 -0600
-@@ -38,5 +38,5 @@ set(CPACK_SOURCE_GENERATOR "TGZ")
- #set(CPACK_PACKAGE_VENDOR "libwpg.sf.net")
- include(CPack)
- 
--configure_file (${CMAKE_CURRENT_BINARY_DIR}/perfectspot.spec.in ${CMAKE_CURRENT_SOURCE_DIR}/perfectspot.spec)
-+configure_file (${CMAKE_CURRENT_SOURCE_DIR}/perfectspot.spec.in ${CMAKE_CURRENT_BINARY_DIR}/perfectspot.spec)
- 
